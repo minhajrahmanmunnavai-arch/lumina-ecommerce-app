@@ -29,7 +29,7 @@ const Category = () => {
 
 
   return (
-    <div className="px-37 mt-12">
+    <div className="mt-25 px-37" >
       <Curated />
       <CategoryTitle />
       <div className="flex gap- justify-between mt-7">

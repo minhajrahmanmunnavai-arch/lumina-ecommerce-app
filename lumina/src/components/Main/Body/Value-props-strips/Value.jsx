@@ -45,7 +45,7 @@ const Value = () => {
 
     ]
     return (
-        <div className="flex px-43 gap-5 py-5 h-32.5 w-full mt-8 justify-between items-center border-b border-gray-200">
+        <div className="flex gap-5 py-5 h-32.5 w-full mt-8 justify-between items-center border-b border-gray-200 px-43">
            {cardDetails.map((elem, idx) => (
                 <Card 
                     key={idx} 
