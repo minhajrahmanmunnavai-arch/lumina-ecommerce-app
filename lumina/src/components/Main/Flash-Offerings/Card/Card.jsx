@@ -9,6 +9,7 @@ const Card = () => {
             shopName: "Lumina Horology",
             itemName: "WATCHES",
             productTitle: "Titan Minimalist Chronograph",
+            reatingStar: "5",
             reating: "142",
             price: "380",
             discoutnPrice: "450"
@@ -19,6 +20,7 @@ const Card = () => {
             shopName: "Studio Atelier",
             itemName: "Lighting",
             productTitle: "Artisanal Ribbed Ceramic Lamp",
+            reatingStar: "4.5",
             reating: "89",
             price: "240",
             discoutnPrice: "290"
@@ -29,6 +31,7 @@ const Card = () => {
             shopName: "Atelier Nord",
             itemName: "Accessories",
             productTitle: "Vachetta Leather Weekender",
+            reatingStar: "4.2",
             reating: "96",
             price: "520",
             discoutnPrice: "620"
@@ -39,6 +42,7 @@ const Card = () => {
             shopName: "Acoustic Audio",
             itemName: "Audio",
             productTitle: "Wireless Headphones",
+            reatingStar: "5",
             reating: "230",
             price: "349",
             discoutnPrice: "390"
@@ -56,6 +60,7 @@ const Card = () => {
                 shopName={elem.shopName}
                 itemName={elem.itemName}
                 productTitle={elem.productTitle}
+                reatingStar={elem.reatingStar}
                 reating={elem.reating}
                 price={elem.price}
                 discoutnPrice={elem.discoutnPrice}

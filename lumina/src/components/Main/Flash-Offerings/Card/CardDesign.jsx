@@ -68,7 +68,7 @@ const ProductCard = (props) => {
           {props.shopName} <span className="mx-1">•</span> {props.itemName}
         </p>
 
-        <h3 className="text-base font-bold text-gray-900 leading-snug">
+        <h3 className="text-base font-bold text-gray-900 leading-snug cursor-pointer">
           {props.productTitle}
         </h3>
 

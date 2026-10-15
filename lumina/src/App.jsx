@@ -1,18 +1,20 @@
+import { Routes, Route } from "react-router-dom"
+
 import Navbar from "./components/Navbar/Navbar"
-import Hero from "./components/Main/Hero-section/Hero"
-import Value from "./components/Main/Body/Value-props-strips/Value"
-import Category from "./components/Main/Category-section/Category"
-import Main from "./components/Main/Flash-Offerings/Main-Flash"
+import Home from "./pages/Home.jsx"
+import ShopCatalog from "./pages/Shop-Catalog.jsx"
+import Collections from "./pages/Collections.jsx"
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Value />
-      <Category />
-      <Main />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop-catalog" element={<ShopCatalog />} />
+        <Route path="/collections" element={<Collections />} />
+      </Routes>
+    </div >
   )
 }
 
